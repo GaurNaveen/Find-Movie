@@ -18,7 +18,7 @@
 
 import UIKit
 
-class ApiResponse: NSObject {
+class ApiResponse: Decodable {
 
     var page: Int?
     var total_results: Int?

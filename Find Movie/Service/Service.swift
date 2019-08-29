@@ -31,7 +31,6 @@ enum MovieService {
     private let adult = "false"
     private let language = "en-US"
 
-
 extension MovieService: TargetType {
 
     var baseURL: URL {
@@ -67,7 +66,9 @@ extension MovieService: TargetType {
     }
     
     var headers: [String : String]? {
-        return ["X-Api-Key":""]
+        guard let apiKey = Bundle.main.object(forInfoDictionaryKey: "APIKey") as? String else {
+            fatalError("The Api Key was Not found. Check the Info.plist file for more info.")
+        }
+        return ["X-Api-Key":apiKey]
     }
-    
 }

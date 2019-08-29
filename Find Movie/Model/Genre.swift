@@ -26,7 +26,7 @@
 import UIKit
 
 /// Genre Model Object
-class Genre: NSObject {
+class Genre: Decodable {
     var id: Int?
     var name: String?
 }

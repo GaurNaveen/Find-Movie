@@ -17,7 +17,7 @@
 */
 import UIKit
 
-class Movie: NSObject {
+class Movie: Decodable {
     
     var popularity: Double?
     var id: Int?
