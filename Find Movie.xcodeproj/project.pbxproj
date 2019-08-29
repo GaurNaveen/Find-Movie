@@ -21,6 +21,7 @@
 		B68219A123177A49005C4279 /* Find_MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68219A023177A49005C4279 /* Find_MovieTests.swift */; };
 		B68219AC23177A4A005C4279 /* Find_MovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68219AB23177A4A005C4279 /* Find_MovieUITests.swift */; };
 		B68219BB23177E86005C4279 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68219BA23177E86005C4279 /* Service.swift */; };
+		B6E085712317A28600410996 /* APICredentialsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E085702317A28600410996 /* APICredentialsFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		B68219AB23177A4A005C4279 /* Find_MovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_MovieUITests.swift; sourceTree = "<group>"; };
 		B68219AD23177A4A005C4279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B68219BA23177E86005C4279 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B6E085702317A28600410996 /* APICredentialsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICredentialsFile.swift; sourceTree = "<group>"; };
 		BBEC38554CAD78E03C16C193 /* Pods-Find Movie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Movie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find Movie/Pods-Find Movie.release.xcconfig"; sourceTree = "<group>"; };
 		F386A01A66A3EA7956A17CBA /* Pods-Find MovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find MovieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find MovieTests/Pods-Find MovieTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				B682199223177A49005C4279 /* Assets.xcassets */,
 				B682199423177A49005C4279 /* LaunchScreen.storyboard */,
 				B682199723177A49005C4279 /* Info.plist */,
+				B6E085702317A28600410996 /* APICredentialsFile.swift */,
 			);
 			path = "Find Movie";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B682198E23177A47005C4279 /* ViewController.swift in Sources */,
+				B6E085712317A28600410996 /* APICredentialsFile.swift in Sources */,
 				B682198C23177A47005C4279 /* AppDelegate.swift in Sources */,
 				B656502323177F89006F5C2E /* Movie.swift in Sources */,
 				B6565027231792AF006F5C2E /* ApiResponse.swift in Sources */,
