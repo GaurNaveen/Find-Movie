@@ -1,0 +1,6 @@
+framework module Pods_Find_Movie {
+  umbrella header "Pods-Find Movie-umbrella.h"
+
+  export *
+  module * { export * }
+}
