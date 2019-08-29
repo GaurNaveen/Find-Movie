@@ -7,6 +7,7 @@ target 'Find Movie' do
 
   # Pods for Find Movie
     pod 'Moya', '~> 13.0'
+    pod 'Kingfisher', '~> 5.0'
 
   target 'Find MovieTests' do
     inherit! :search_paths

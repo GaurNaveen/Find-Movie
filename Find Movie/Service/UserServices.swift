@@ -30,7 +30,7 @@ class UserServices: NSObject {
         }
     }
     
-    func downloadMovieThumnail() {
+    func downloadMovieThumnail(thumbnailUrl: String) {
         
     }
     
